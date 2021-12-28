@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* sample60_5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* sample60_5Tests.m */; };
+		042A7736277BBCA700591DAC /* fix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A7735277BBCA700591DAC /* fix.swift */; };
+		042A7737277BBCA700591DAC /* fix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A7735277BBCA700591DAC /* fix.swift */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -16,10 +18,10 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* sample60_5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* sample60_5Tests.m */; };
-		79E10A9AF774C995BB46817C /* libPods-sample60_5Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF07B143B748344BB6DB216E /* libPods-sample60_5Tests.a */; };
+		6F9C8C4B223A852059204610 /* libPods-sample60_5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F0668BB8F0525E8BCF2FFC /* libPods-sample60_5.a */; };
+		7F5B420C2245013191F5192E /* libPods-sample60_5Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3112B88AC1E936D8A613428F /* libPods-sample60_5Tests.a */; };
 		899B92C2125D0EE15D3A30D6 /* libPods-sample60_5-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52664FDB22338A45C7CF26C1 /* libPods-sample60_5-tvOS.a */; };
 		D944F06899F8F57F20869C64 /* libPods-sample60_5-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2000746DA5364CE163BF68 /* libPods-sample60_5-tvOSTests.a */; };
-		FB5477065A2CECB7645CDBDC /* libPods-sample60_5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E6EE642DA68054D344E66B5 /* libPods-sample60_5.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,9 @@
 		00E356EE1AD99517003FC87E /* sample60_5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sample60_5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* sample60_5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sample60_5Tests.m; sourceTree = "<group>"; };
+		042A7733277BBCA600591DAC /* sample60_5-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sample60_5-Bridging-Header.h"; sourceTree = "<group>"; };
+		042A7734277BBCA600591DAC /* sample60_5-tvOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sample60_5-tvOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		042A7735277BBCA700591DAC /* fix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = fix.swift; path = sample60_5/fix.swift; sourceTree = "<group>"; };
 		0F2000746DA5364CE163BF68 /* libPods-sample60_5-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sample60_5-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13655F8C808EF60D73A9DC5B /* Pods-sample60_5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample60_5.release.xcconfig"; path = "Target Support Files/Pods-sample60_5/Pods-sample60_5.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* sample60_5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample60_5.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,15 +60,15 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = sample60_5/main.m; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* sample60_5-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sample60_5-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* sample60_5-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sample60_5-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3112B88AC1E936D8A613428F /* libPods-sample60_5Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sample60_5Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50982751019EFE0026C5239B /* Pods-sample60_5-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample60_5-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-sample60_5-tvOSTests/Pods-sample60_5-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		52664FDB22338A45C7CF26C1 /* libPods-sample60_5-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sample60_5-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C94272E869C004EB133339 /* Pods-sample60_5-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample60_5-tvOS.release.xcconfig"; path = "Target Support Files/Pods-sample60_5-tvOS/Pods-sample60_5-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		6D6B4D87FA7FBC80D87EB804 /* Pods-sample60_5-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample60_5-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-sample60_5-tvOS/Pods-sample60_5-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		6E6EE642DA68054D344E66B5 /* libPods-sample60_5.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sample60_5.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F0668BB8F0525E8BCF2FFC /* libPods-sample60_5.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sample60_5.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B874CD67CFE9926DB2A9DF58 /* Pods-sample60_5Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample60_5Tests.debug.xcconfig"; path = "Target Support Files/Pods-sample60_5Tests/Pods-sample60_5Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE1220191CBE9716C72E8F82 /* Pods-sample60_5Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample60_5Tests.release.xcconfig"; path = "Target Support Files/Pods-sample60_5Tests/Pods-sample60_5Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CA3FCB4E79EC962DDADCC08E /* Pods-sample60_5-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample60_5-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-sample60_5-tvOSTests/Pods-sample60_5-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		CF07B143B748344BB6DB216E /* libPods-sample60_5Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sample60_5Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB506D27F13147B069AD324 /* Pods-sample60_5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample60_5.debug.xcconfig"; path = "Target Support Files/Pods-sample60_5/Pods-sample60_5.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -74,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79E10A9AF774C995BB46817C /* libPods-sample60_5Tests.a in Frameworks */,
+				7F5B420C2245013191F5192E /* libPods-sample60_5Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB5477065A2CECB7645CDBDC /* libPods-sample60_5.a in Frameworks */,
+				6F9C8C4B223A852059204610 /* libPods-sample60_5.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +137,9 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				042A7735277BBCA700591DAC /* fix.swift */,
+				042A7733277BBCA600591DAC /* sample60_5-Bridging-Header.h */,
+				042A7734277BBCA600591DAC /* sample60_5-tvOS-Bridging-Header.h */,
 			);
 			name = sample60_5;
 			sourceTree = "<group>";
@@ -148,7 +156,6 @@
 				B874CD67CFE9926DB2A9DF58 /* Pods-sample60_5Tests.debug.xcconfig */,
 				BE1220191CBE9716C72E8F82 /* Pods-sample60_5Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -157,10 +164,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				6E6EE642DA68054D344E66B5 /* libPods-sample60_5.a */,
 				52664FDB22338A45C7CF26C1 /* libPods-sample60_5-tvOS.a */,
 				0F2000746DA5364CE163BF68 /* libPods-sample60_5-tvOSTests.a */,
-				CF07B143B748344BB6DB216E /* libPods-sample60_5Tests.a */,
+				92F0668BB8F0525E8BCF2FFC /* libPods-sample60_5.a */,
+				3112B88AC1E936D8A613428F /* libPods-sample60_5Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -292,8 +299,12 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1200;
+					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 1200;
 						ProvisioningStyle = Automatic;
 					};
 					2D02E48F1E0B4A5D006451C7 = {
@@ -308,6 +319,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -528,6 +540,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042A7736277BBCA700591DAC /* fix.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
@@ -537,6 +550,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042A7737277BBCA700591DAC /* fix.swift in Sources */,
 				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
 				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
 			);
@@ -582,6 +596,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B874CD67CFE9926DB2A9DF58 /* Pods-sample60_5Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -605,6 +620,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BE1220191CBE9716C72E8F82 /* Pods-sample60_5Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = sample60_5Tests/Info.plist;
@@ -626,6 +642,7 @@
 			baseConfigurationReference = ECB506D27F13147B069AD324 /* Pods-sample60_5.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				INFOPLIST_FILE = sample60_5/Info.plist;
@@ -637,6 +654,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = sample60_5;
+				SWIFT_OBJC_BRIDGING_HEADER = "sample60_5-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -646,6 +666,7 @@
 			baseConfigurationReference = 13655F8C808EF60D73A9DC5B /* Pods-sample60_5.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = sample60_5/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -656,6 +677,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = sample60_5;
+				SWIFT_OBJC_BRIDGING_HEADER = "sample60_5-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -667,6 +690,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -683,6 +707,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.sample60_5-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "sample60_5-tvOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
@@ -695,6 +722,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -711,6 +739,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.sample60_5-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "sample60_5-tvOS-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
@@ -720,6 +750,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 50982751019EFE0026C5239B /* Pods-sample60_5-tvOSTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -747,6 +778,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CA3FCB4E79EC962DDADCC08E /* Pods-sample60_5-tvOSTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
