@@ -1,0 +1,27 @@
+{
+  "name": "sample60_5",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "16.8.6",
+    "react-native": "0.60.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/runtime": "^7.16.5",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^27.4.5",
+    "eslint": "^8.5.0",
+    "jest": "^27.4.5",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
